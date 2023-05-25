@@ -1,13 +1,22 @@
-body{
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+*{
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-    
-
-.body-header{
-    background-color: red;
-    width: auto;
-    height: 2000px;
+section{
+    display: flex;
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .text-container {
+    padding: 2px 16px;
+  }
