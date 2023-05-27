@@ -1,22 +1,119 @@
-*{
-    margin: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
+*, *::before, *::after { box-sizing:inherit; }
+
+html{
+  box-sizing: border-box;
 }
 
-section{
-    display: flex;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", -apple-system;
+    text-decoration: none;
 }
+
+/* Font Size */
+h1{
+  font-size: 42px;
+  color: #e5e7eb;
+}
+
+/* Colors */
+.header-logo-text{
+  color: #f9faf8;
+  font-size: 28px;
+}
+
+.main-text{
+  font-size: 48px;
+  font-weight:bolder;
+  color: #f9faf8;
+}
+
+.gray{
+  color: #e5e7eb;
+}
+
+div{}
+
+header{
+  background-color: #1f2937;
+  padding-top: 38px;
+  padding-bottom: 60px;
+  padding-right: 65px;
+  padding-left: 65px;
+  width:100%;
+}
+
+.sectionwrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 1110px;
+  margin:auto;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 60px;
+}
+
+ul{
+  display: flex;
+  align-items:flex-end;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.left-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  
+}
+
+button {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 3px 3px 1px #c5c5c5, -3px -3px 1px #ffffff;
+}
+
+button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+.gap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+
+
 
 .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
 
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
-  .text-container {
-    padding: 2px 16px;
-  }
+.text-container {
+  padding: 2px 16px;
+}
