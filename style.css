@@ -33,8 +33,6 @@ h1{
   color: #e5e7eb;
 }
 
-div{}
-
 header{
   background-color: #1f2937;
   padding-top: 38px;
@@ -99,15 +97,17 @@ button:active {
   gap: 15px;
 }
 
-
-
-
-
-
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #00000033;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1px;
+  border-radius: 20px;
 }
 
 .card:hover {
@@ -116,4 +116,45 @@ button:active {
 
 .text-container {
   padding: 2px 16px;
+}
+
+.main{
+  padding-top: 45px;
+  padding-left: 65px;
+  padding-right: 65px;  
+  width: 100%;
+}
+
+.container-randominfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1110px;
+  margin:auto;
+  padding-bottom: 120px;
+}
+
+.randominfo-img{
+  border: 1px;
+  border-radius: 10px;
+}
+
+
+.container-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  color: #1f2937;
+}
+
+.quote-container{
+  padding-left:65px ;
+  padding-right: 65px;
 }
